@@ -1,11 +1,19 @@
-import React from 'react'
+import Button from 'react-bootstrap/Button';
 
-const Service = () => {
+function Service() {
   return (
-    <div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit libero laborum asperiores placeat obcaecati eius sint, magni a ut minima aliquid ab ex eligendi et ad aperiam consequuntur delectus quod!</p>
-    </div>
-  )
+    <>
+      <Button variant="primary">Primary</Button>{' '}
+      <Button variant="secondary">Secondary</Button>{' '}
+      <Button variant="success">Success</Button>{' '}
+      <Button variant="warning">Warning</Button>{' '}
+      <Button variant="danger">Danger</Button>{' '}
+      <Button variant="info">Info</Button>{' '}
+      <Button variant="light">Light</Button>{' '}
+      <Button variant="dark">Dark</Button>
+      <Button variant="link">Link</Button>
+    </>
+  );
 }
 
-export default Service
+export default Service;
