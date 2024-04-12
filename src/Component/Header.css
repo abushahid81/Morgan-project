@@ -1,0 +1,15 @@
+.line-point{
+    border-bottom: 2px solid orange;
+    /* position: fixed; */
+  }
+  .navbt{
+    text-transform: uppercase;
+    color: rgb(74, 83, 83);
+  }
+  .navbt:hover{
+    color: rgb(38, 153, 219);
+  }
+  .bg-body-tertiary{
+    position: fixed;
+  }
+  

@@ -1,0 +1,23 @@
+.brand-log{
+    margin-top: 250px;
+    margin-left: 250px;
+  }
+  .banner{
+    background-image: url("../Assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    margin-top: 55px;
+  
+  }
+  .button-zero{
+    border: 2px solid orange;
+  }
+  .button-zero:hover{
+    background-color: rgb(93, 207, 213);
+  }
+  /* .img-home{
+    margin-top: 150px;
+  } */

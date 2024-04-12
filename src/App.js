@@ -16,10 +16,10 @@ function App() {
      <Router>
             <Header/>
             <Switch>
-                <Route exact path="/home"><Home /></Route>
-                <Route path="/blogs"><Blog /></Route>
-                <Route path="/about"><About /></Route>
-                <Route path="/contact"><Contact /></Route>
+                <Route exact path="/Home"><Home /></Route>
+                <Route path="/About"><About /></Route>
+                <Route path="/Blog"><Blog /></Route>
+                <Route path="/Contact"><Contact /></Route>
                 <Route path="/Service"><Service /></Route>
             </Switch>
         </Router> 
