@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import logo from "./Assets/logo.png"
+import logo from "../Assets/mainlogo.png";
 
 function Header() {
   return (
@@ -9,10 +9,10 @@ function Header() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="/home"><img
-              src=""
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
+              src={logo}
+              // width="30"
+              // height="30"
+              // className="d-inline-block align-top"
               alt="logo"
             /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
