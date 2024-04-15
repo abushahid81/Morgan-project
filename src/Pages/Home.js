@@ -5,8 +5,14 @@ import Row from 'react-bootstrap/Row';
 import brand from "../Assets/brand-inverse.png";
 import home from "../Assets/home.jpg";
 import "./Home.css";
+import Shopping from '../Component/Shopping';
+
 
 function Home() {
+
+
+  
+
   return (
     <>
     {/* Banner */}
@@ -43,7 +49,7 @@ function Home() {
       <Container>
         <Row>
             <h1 className='text-center'>My Paintings</h1>
-          
+          <Shopping/>
         </Row>
       </Container>
     </section>

@@ -9,11 +9,11 @@ function Header() {
     <div>
     <Navbar expand="lg" className="bg-body-tertiary fixed-top line-point">
       <Container>
-        <Navbar.Brand href="/home"><img src={logo}alt="logo"/></Navbar.Brand>
+        <Navbar.Brand href="/"><img src={logo}alt="logo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="w-100 justify-content-end">
-            <Nav.Link href="/Home" className='ms-5 navbt'>Home</Nav.Link>
+            <Nav.Link href="/" className='ms-5 navbt'>Home</Nav.Link>
             <Nav.Link href="/About" className='ms-5 navbt'>About</Nav.Link>
             <Nav.Link href="/Blog" className='ms-5 navbt' >Blog</Nav.Link>
             <Nav.Link href="/Contact" className='ms-5 navbt'>Contact</Nav.Link>
