@@ -1,5 +1,5 @@
-import React from 'react'
-import Col from 'react-bootstrap/Col';
+import React from 'react';
+import "./Blog.css";
 import Shopping from '../Component/Shopping';
 
 
@@ -8,7 +8,7 @@ const Blog = () => {
     <>
       <section className='about-img bg-dark-overlay'>
       <div>
-        <h2 className='text-light text-center about-u'>Blog</h2>
+        <h2 className='text-light text-center blog-u'>BLOG</h2>
       </div>
     </section>
     <Shopping/>

@@ -15,7 +15,7 @@ function Service() {
     <>
     <section className='about-img bg-dark-overlay'>
       <div>
-        <h2 className='text-light text-center about-u'>SERVICES</h2>
+        <h2 className='text-light text-center service-u'>SERVICES</h2>
       </div>
     </section>
     <section>
