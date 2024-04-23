@@ -8,18 +8,18 @@ import About from './Pages/About.js';
 import Blog from './Pages/Blog.js';
 import Contact from './Pages/Contact.js';
 import Service from './Pages/Service.js';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 
 function App() {
   return (
      <Router>
             <Header/>
             <Switch>
-                <Route exact path="/"><Home /></Route>
-                <Route path="/About"><About /></Route>
-                <Route path="/Blog"><Blog /></Route>
-                <Route path="/Contact"><Contact /></Route>
-                <Route path="/Service"><Service /></Route>
+                 <Route exact path='/' component={Home} />
+                 <Route path='/About' component={About} />
+                 <Route path='/Service' component={Service} />
+                 <Route path='/Blog' component={Blog} />
+                 <Route path='/Contact' component={Contact} />
             </Switch>
             <Footer/>
 

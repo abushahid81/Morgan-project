@@ -6,12 +6,12 @@ import Modal from 'react-bootstrap/Modal';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
-import project1 from '../Assets/project-1.jpg';
-import project2 from '../Assets/project-2.jpg';
-import project3 from '../Assets/project-3.jpg';
-import project4 from '../Assets/project-4.jpg';
-import project5 from '../Assets/project-5.jpg';
-import project6 from '../Assets/project-6.jpg';
+import project1 from '../assets/project-1.jpg';
+import project2 from '../assets/project-2.jpg';
+import project3 from '../assets/project-3.jpg';
+import project4 from '../assets/project-4.jpg';
+import project5 from '../assets/project-5.jpg';
+import project6 from '../assets/project-6.jpg';
 
 function Shopping() {
     const [selectedCard, setSelectedCard] = useState(null);

@@ -1,0 +1,20 @@
+/* .about-img{
+    background-image: url("../assets/bg-image.jpg");
+    background-repeat: no-repeat;
+} */
+
+.about-img{
+    background-image: url("../assets/bg-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    margin-top: 55px;
+  
+  }
+  .about-u{
+    font-size: 60px;
+    font-weight: 900;
+    padding:100px;
+  }
