@@ -1,9 +1,8 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 // import "./Assets";
 import Header from './Component/Header.js';
-// import Footer from './Component/Footer.js';
+import Footer from './Component/Footer.js';
 import Home from './Pages/Home.js';
 import About from './Pages/About.js';
 import Blog from './Pages/Blog.js';
@@ -22,6 +21,8 @@ function App() {
                 <Route path="/Contact"><Contact /></Route>
                 <Route path="/Service"><Service /></Route>
             </Switch>
+            <Footer/>
+
         </Router> 
   );
 }

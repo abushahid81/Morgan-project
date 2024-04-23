@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import "./Shopping.css"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Col from 'react-bootstrap/Col';
 import project1 from '../Assets/project-1.jpg';
 import project2 from '../Assets/project-2.jpg';
 import project3 from '../Assets/project-3.jpg';
@@ -70,19 +71,27 @@ function Shopping() {
     return (
         <>
          <Container>
-      <Row>
-
-        <Col lg={4}></Col>
-        {paintings.map((item, index) => (
-                <Card style={{ width: '18rem' }} key={index}>
+          <Row>
+        
+        <section className='bg-body-teritary mt-5 mx-5'>
+            <div className='container'>
+                <div className='row gap-5 ms-5'>
+                   <h1 className='text-center'>My Paintings</h1>
+                {paintings.map((item, index) => (
+                    <Card style={{ width: '20rem' }} key={index}> 
                     <Card.Img variant="top" src={item.image} />
                     <Card.Body>
                         <Card.Title>{item.title}</Card.Title>
                         <Card.Text>
                             {item.description}
                         </Card.Text>
-                        <Button variant="primary" onClick={() => handleShow(index)}>Show Details</Button>
+                        <div className='flex justify-content-between'>
+                           <Button variant="light" className='border border-black rounded-pill button-1' onClick={() => handleShow(index)}>View Detail</Button>
+                            <h3>$200</h3>
+                        </div>
                     </Card.Body>
+                    
+                    
                     <Modal
                         show={showModal[index]} // Use showModal state for each card
                         onHide={handleClose}
@@ -93,7 +102,7 @@ function Shopping() {
                             <Modal.Title>{item.title}</Modal.Title>
                         </Modal.Header>
                         <Modal.Body>
-                            <img src={item.image} alt='modalimage' className='' /><br/>
+                            <img src={item.image} alt='modalimage' /><br/>
                             {item.description}
                         </Modal.Body>
                         <Modal.Footer>
@@ -104,14 +113,14 @@ function Shopping() {
                         </Modal.Footer>
                     </Modal>
                 </Card>
+                
             ))}
-
- 
+            </div>
+        </div>
+    </section>
       </Row>
     </Container>
-
-            
-            
+     
         </>
     );
 }

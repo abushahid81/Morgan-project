@@ -4,8 +4,13 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import brand from "../Assets/brand-inverse.png";
 import home from "../Assets/home.jpg";
+import { Button } from 'react-bootstrap';
 import "./Home.css";
 import Shopping from '../Component/Shopping';
+import user from '../Assets/user.png';
+import leaf from '../Assets/leaf.png';
+import house from '../Assets/house.png';
+import apple from '../Assets/apple-logo.png';
 
 
 function Home() {
@@ -43,13 +48,53 @@ function Home() {
               </Col>
         </Row>
       </Container>
+          <Shopping/>
     </section>
     {/* third content */}
-    <section className='mt-5'>
+    <section className='mt-5 pt-5'>
       <Container>
         <Row>
-            <h1 className='text-center'>My Paintings</h1>
-          <Shopping/>
+            <Col lg="12" className='text-center'>
+            <h2>Services</h2>
+            <p className='fs-5 p-text'>If you are looking for custom paintings, which will decorate your home or office,
+                 consider booking one or several of<br/> my services listed below. 
+                They will add more colors and emotions to your daily life.</p>
+            </Col>
+            <Col lg="3" className='change-box'>
+              <div className='rounded shadow box-change'>
+                <div className='text-center my-5 py-5'>
+                  <img src={user} alt="contact" />
+                  <h2>Portrait</h2>
+                </div>
+              </div>
+            </Col>
+            <Col lg="3" className='change-box'>
+              <div className='rounded shadow box-change'>
+                <div className='text-center my-5 py-5'>
+                  <img src={leaf} alt="" />
+                  <h2>Portrait</h2>
+                </div>
+              </div>
+            </Col>
+            <Col lg="3" className='change-box'>
+              <div className='rounded shadow box-change'>
+                <div className='text-center my-5 py-5'>
+                  <img src={apple} alt="" />
+                  <h2>Portrait</h2>
+                </div>
+              </div>
+            </Col>
+            <Col lg="3" className='change-box'>
+              <div className='rounded shadow box-change'>
+                <div className='text-center my-5 py-5'>
+                  <img src={house} alt="" />
+                  <h2>Portrait</h2>
+                </div>
+              </div>
+            </Col>
+            <div className='text-center mt-5'>
+            <Button variant="outline-secondary" className='rounded-pill btn-change'>View All Services</Button>            
+            </div>
         </Row>
       </Container>
     </section>

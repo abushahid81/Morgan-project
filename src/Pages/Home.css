@@ -18,6 +18,20 @@
   .button-zero:hover{
     background-color: rgb(93, 207, 213);
   }
-  /* .img-home{
-    margin-top: 150px;
-  } */
+ .p-text{
+  color: rgb(143, 139, 139);
+ }
+ .box-change{
+  border: 3px solid orange;
+ }
+ .change-box{
+  margin-top: 20px;
+ }
+ .btn-change{
+  border: 3px solid orange;
+  color: orange;
+  font-size: 20px;
+ }
+ .btn-change:hover{
+   background-color: orange!important;
+ }
