@@ -2,7 +2,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
-import brand from "../assets/brand-inverse.png";
+import brand from "../assets/brand.png";
 import home from "../assets/home.jpg";
 import { Button } from 'react-bootstrap';
 import "./Home.css";
