@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
 import "./Home.css";
 import home from "../assets/home.jpg";
-import brand from "../assets/brand.png";
+import morgan from "../assets/morgan.png";
 import Shopping from '../Component/Shopping';
 import user from '../assets/user.png';
 import leaf from '../assets/leaf.png';
@@ -24,7 +24,7 @@ function Home() {
     <Container>
       <Row>
         <Col lg='6'>
-          <Image src={brand} className='img-fluid brand-log' alt='brand-logo' />
+          <Image src={morgan} className='img-fluid brand-log' alt='brand-logo' />
         </Col>
       </Row>
     </Container>
