@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+ <!-- <section className='about-img bg-dark-overlay'>
+    <div>
+      <h2 className='text-light text-center contact-u'>CONTACTS</h2>
+    </div>
+    <div>
+
+     <Form/> 
+    </div>
+  </section> -->

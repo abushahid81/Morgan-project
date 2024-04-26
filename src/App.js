@@ -8,6 +8,7 @@ import About from './Pages/About.js';
 import Blog from './Pages/Blog.js';
 import Contact from './Pages/Contact.js';
 import Service from './Pages/Service.js';
+// import Form from './Component/Form.js';
 import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                  <Route path='/Blog' component={Blog} />
                  <Route path='/Contact' component={Contact} />
             </Switch>
+             {/* <Form/> */}
             <Footer/>
 
         </Router> 
