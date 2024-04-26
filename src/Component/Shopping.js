@@ -12,6 +12,7 @@ import project3 from '../assets/project-3.jpg';
 import project4 from '../assets/project-4.jpg';
 import project5 from '../assets/project-5.jpg';
 import project6 from '../assets/project-6.jpg';
+import { Col } from 'react-bootstrap';
 
 function Shopping() {
     const [selectedCard, setSelectedCard] = useState(null);
@@ -72,14 +73,12 @@ function Shopping() {
         <>
          <Container>
           <Row>
-        
-        <section className='bg-body-teritary mt-5 mx-5'>
-            <div className='container'>
                 <div className='row gap-5 ms-5'>
                    <h1 className='text-center'>My Paintings</h1>
                 {paintings.map((item, index) => (
+                    <Col className='pt-5' lg={3}>
                     <Card style={{ width: '20rem' }} key={index}> 
-                    <Card.Img variant="top" src={item.image} />
+                    <Card.Img variant="top" src={item.image} height={'320rem'} />
                     <Card.Body>
                         <Card.Title>{item.title}</Card.Title>
                         <Card.Text>
@@ -89,7 +88,7 @@ function Shopping() {
                            <Button variant="light" className='border border-black rounded-pill button-1' onClick={() => handleShow(index)}>View Detail</Button>
                             <h3>$200</h3>
                         </div>
-                    </Card.Body>
+                    
                     
                     
                     <Modal
@@ -112,12 +111,11 @@ function Shopping() {
                             <Button variant="primary">Understood</Button>
                         </Modal.Footer>
                     </Modal>
+                    </Card.Body>
                 </Card>
-                
+                </Col>
             ))}
             </div>
-        </div>
-    </section>
       </Row>
     </Container>
      
