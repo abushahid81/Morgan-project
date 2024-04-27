@@ -50,9 +50,9 @@ const Contact = () => {
     <div className='adss mt-5'>
       <h2>Our Address</h2>
       
-       <p><i className=""></i>2130 Fulton Street, San Diego, USA</p>
-      <p><i className=""></i>1-800-1234-567</p>
-       <p><i className=""></i> info@demolink.org</p>
+       <p><i className="mt-1"></i>2130 Fulton Street, San Diego, USA</p>
+      <p><i className="mt-1"></i>1-800-1234-567</p>
+       <p><i className="mt-1"></i> info@demolink.org</p>
        <iframe height={280} width={500} className='map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15092.899608597789!2d72.8310554!3d18.9656724!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cfdf5cadca43%3A0x2f248f63460fcd4f!2sHeuristic%20Academy!5e0!3m2!1sen!2sin!4v1712155173082!5m2!1sen!2sin" />
     </div>
              
