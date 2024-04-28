@@ -53,7 +53,7 @@ const Contact = () => {
        <p><i className="mt-1"></i>2130 Fulton Street, San Diego, USA</p>
       <p><i className="mt-1"></i>1-800-1234-567</p>
        <p><i className="mt-1"></i> info@demolink.org</p>
-       <iframe  className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.2247877368627!2d72.82848047562901!3d18.965677455425848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cfdf5cadca43%3A0x2f248f63460fcd4f!2sHeuristic%20Academy!5e0!3m2!1sen!2sin!4v1714287382302!5m2!1sen!2sin" width={500}  height={280} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
+       <iframe  title='myframe' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.2247877368627!2d72.82848047562901!3d18.965677455425848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cfdf5cadca43%3A0x2f248f63460fcd4f!2sHeuristic%20Academy!5e0!3m2!1sen!2sin!4v1714287382302!5m2!1sen!2sin" width={500}  height={280} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
     </div>
              
     </Col>
