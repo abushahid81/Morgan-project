@@ -4,11 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Button } from 'react-bootstrap';
-import portrait1 from '../assets/services-1.jpg';
-import portrait2 from '../assets/portrait-2.jpg';
-import portrait3 from '../assets/portrait-3.jpg';
-import portrait4 from '../assets/portrait-4.jpg';
-import portrait5 from '../assets/portrait-5.jpg';
+import portrait1 from '../Assets/services-1.jpg';
+import portrait2 from '../Assets/portrait-2.jpg';
+import portrait3 from '../Assets/portrait-3.jpg';
+import portrait4 from '../Assets/portrait-4.jpg';
+import portrait5 from '../Assets/portrait-5.jpg';
 
 function Service() {
   return (

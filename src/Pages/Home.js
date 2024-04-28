@@ -4,13 +4,13 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
 import "./Home.css";
-import home from "../assets/home.jpg";
-import morgan from "../assets/morgan.png";
+import home from "../Assets/home.jpg";
+import morgan from "../Assets/morgan.png";
 import Shopping from '../Component/Shopping';
-import user from '../assets/user.png';
-import leaf from '../assets/leaf.png';
-import house from '../assets/house.png';
-import apple from '../assets/apple-logo.png';
+import user from '../Assets/user.png';
+import leaf from '../Assets/leaf.png';
+import house from '../Assets/house.png';
+import apple from '../Assets/apple-logo.png';
 
 function Home() {
 

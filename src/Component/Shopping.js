@@ -6,12 +6,12 @@ import Modal from 'react-bootstrap/Modal';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
-import project1 from '../assets/project-1.jpg';
-import project2 from '../assets/project-2.jpg';
-import project3 from '../assets/project-3.jpg';
-import project4 from '../assets/project-4.jpg';
-import project5 from '../assets/project-5.jpg';
-import project6 from '../assets/project-6.jpg';
+import project1 from '../Assets/project-1.jpg';
+import project2 from '../Assets/project-2.jpg';
+import project3 from '../Assets/project-3.jpg';
+import project4 from '../Assets/project-4.jpg';
+import project5 from '../Assets/project-5.jpg';
+import project6 from '../Assets/project-6.jpg';
 import { Col } from 'react-bootstrap';
 
 function Shopping() {
@@ -77,8 +77,8 @@ function Shopping() {
                    <h1 className='text-center'>My Paintings</h1>
                 {paintings.map((item, index) => (
                     <Col className='pt-5' lg={3}>
-                    <Card style={{ width: '20rem' }} key={index}> 
-                    <Card.Img variant="top" src={item.image} height={'320rem'} />
+                    <Card style={{ width: '22rem' }} key={index}> 
+                    <Card.Img variant="top" src={item.image} height={'400rem'} />
                     <Card.Body>
                         <Card.Title>{item.title}</Card.Title>
                         <Card.Text>
@@ -86,7 +86,7 @@ function Shopping() {
                         </Card.Text>
                         <div className='flex justify-content-between'>
                            <Button variant="light" className='border border-black rounded-pill button-1' onClick={() => handleShow(index)}>View Detail</Button>
-                            <h3>$200</h3>
+                            <h3 className='text-end'>$200</h3>
                         </div>
                     
                     
