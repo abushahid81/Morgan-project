@@ -9,11 +9,11 @@ import Blog from './Pages/Blog.js';
 import Contact from './Pages/Contact.js';
 import Service from './Pages/Service.js';
 // import Form from './Component/Form.js';
-import { BrowserRouter as Routers, Switch, Route,} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 
 function App() {
   return (
-     <Routers>
+     <Router>
             <Header/>
             <Switch>
                  <Route exact path='/' component={Home} />
@@ -22,9 +22,8 @@ function App() {
                  <Route path='/Blog' component={Blog} />
                  <Route path='/Contact' component={Contact} />
             </Switch>
-             {/* <Form/> */}
             <Footer/>
-        </Routers> 
+        </Router> 
   );
 }
 
