@@ -9,11 +9,11 @@ import Blog from './Pages/Blog.js';
 import Contact from './Pages/Contact.js';
 import Service from './Pages/Service.js';
 // import Form from './Component/Form.js';
-import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
+import { BrowserRouter as Routers, Switch, Route,} from "react-router-dom";
 
 function App() {
   return (
-     <Router>
+     <Routers>
             <Header/>
             <Switch>
                  <Route exact path='/' component={Home} />
@@ -24,7 +24,7 @@ function App() {
             </Switch>
              {/* <Form/> */}
             <Footer/>
-        </Router> 
+        </Routers> 
   );
 }
 
