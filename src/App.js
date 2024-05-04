@@ -24,7 +24,6 @@ function App() {
             </Switch>
              {/* <Form/> */}
             <Footer/>
-
         </Router> 
   );
 }
